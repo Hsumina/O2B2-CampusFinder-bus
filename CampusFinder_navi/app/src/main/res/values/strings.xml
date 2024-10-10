@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">campusfinder1009</string>
+    <string name="title_activity_maps_campus_finder">MapsActivity_campusFinder</string>
+    <string-array name="locations_array">
+        <item>현재 위치</item>
+        <item>중앙도서관</item>
+        <item>공과대학</item>
+    </string-array>
+</resources>
