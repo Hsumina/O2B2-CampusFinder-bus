@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+array locations_array
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id distance_text
+id end_spinner
+id find_route_button
+id map
+id start_spinner
+layout activity_main
+layout activity_maps_campus_finder
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_activity_maps_campus_finder
+style Base.Theme.Campusfinder1009
+style Theme.Campusfinder1009
+xml backup_rules
+xml data_extraction_rules
