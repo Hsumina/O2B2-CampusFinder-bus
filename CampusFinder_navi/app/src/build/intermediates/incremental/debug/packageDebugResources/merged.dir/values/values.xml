@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locations_array">
+        <item>현재 위치</item>
+        <item>중앙도서관</item>
+        <item>공과대학</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">campusfinder1009</string>
+    <string name="title_activity_maps_campus_finder">MapsActivity_campusFinder</string>
+    <style name="Base.Theme.Campusfinder1009" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Campusfinder1009" parent="Base.Theme.Campusfinder1009"/>
+</resources>
