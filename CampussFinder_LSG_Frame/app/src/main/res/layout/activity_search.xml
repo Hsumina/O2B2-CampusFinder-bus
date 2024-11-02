@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="뒤로 가기 버튼"
+        android:layout_gravity="start" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Campus Finder Logo"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/searchField"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="강의실 검색"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchResultsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
